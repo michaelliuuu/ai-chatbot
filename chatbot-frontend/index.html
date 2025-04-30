@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>AI Chatbot</title>
+</head>
+<body>
+    <h1>Demo Website for AI Chatbot</h1>
+
+    <!-- Copy these over -->
+    <button id="chat-icon" ><i class="fa fa-bars"></i></button>
+    <div id="chatbot-container">
+        <!-- Chatbot Header -->
+        <div class="chat-header">
+            <div class="header-info">
+                <i class='fas fa-robot'></i>
+                <h2 class="logo-text">Chatbot</h2>
+            </div>
+        </div>
+
+        <!-- Chatbot Body -->
+        <div class="chat-body">
+            <div class="message bot-message">
+                <i class='fas fa-robot'></i>
+                <div class="message-text">Hi there! I'm an AI chatbot.</div>
+            </div>
+            <div class="message bot-message">
+                <i class='fas fa-robot'></i>
+                <div class="message-text">How can I help you today?</div>
+            </div>
+        </div>
+        
+        <!-- Chatbot Footer -->
+        <div id="chat-footer">
+            <form action="#" id="chat-form">
+                <textarea placeholder="Message..." id="message-input"></textarea>
+                <div id="chat-controls">
+                    <button type="submit" id="submit-message"><i class="material-icons" style="font-size:18px">send</i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
